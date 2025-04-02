@@ -27,17 +27,12 @@ L'app consente la ricerca di prodotti tramite un campo di input che offre sugger
 
 📦 Visualizzazione dei prodotti selezionati con:
 
-Immagine (thumbnail)
-
-Titolo
-
-Prezzo
-
-Brand
-
-Categoria
-
-Descrizione
+- Immagine (thumbnail)
+- Titolo
+- Prezzo
+- Brand
+- Categoria
+- Descrizione
 
 ---
 
