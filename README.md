@@ -16,27 +16,6 @@ L'app consente la ricerca di prodotti tramite un campo di input che offre sugger
 
 ---
 
-## 🧰 Come installare ed eseguire il progetto
-
-Per eseguire il progetto in locale:
-
-```bash
-# Clona il repository
-git clone https://github.com/tuo-username/react-autocomplete.git
-
-# Entra nella cartella del progetto
-cd react-autocomplete
-
-# Installa le dipendenze
-npm install
-# oppure
-# yarn
-
-# Avvia il server di sviluppo
-npm run dev
-# oppure
-# yarn dev
-
 🔍 Funzionalità
 ✨ Autocomplete dinamico con evidenziazione del testo
 
@@ -60,6 +39,9 @@ Categoria
 
 Descrizione
 
+---
+
+
 🧪 Script disponibili
 npm run dev → Avvia il server in sviluppo
 
@@ -69,7 +51,32 @@ npm run preview → Visualizza la build in locale
 
 npm run lint → Analizza il codice con ESLint
 
+---
+
 🌐 API usata
 https://dummyjson.com/products
 
 Restituisce una lista di oggetti Product con title, description, price, brand, category, thumbnail, ecc.
+
+---
+
+## 🧰 Come installare ed eseguire il progetto
+
+Per eseguire il progetto in locale:
+
+```bash
+# Clona il repository
+git clone https://github.com/tuo-username/react-autocomplete.git
+
+# Entra nella cartella del progetto
+cd react-autocomplete
+
+# Installa le dipendenze
+npm install
+# oppure
+# yarn
+
+# Avvia il server di sviluppo
+npm run dev
+# oppure
+# yarn dev
