@@ -31,7 +31,7 @@ function App() {
   }, [inputValue]);
 
   const filteredList = selectedItem
-    ? results.filter((item) => item.title === selectedItem.title)
+    ? results.filter((item) => item.id === selectedItem.id)
     : results;
 
   return (
@@ -39,7 +39,7 @@ function App() {
       <div className="box">
         <h1 className="title">Autocomplete</h1>
         <Autocomplete
-          placeholder="Cerca un frutto..."
+          placeholder="Cerca un prodotto..."
           onInputChange={(value) => {
             setInputValue(value);
             setSelectedItem(null);
